@@ -62,9 +62,9 @@ header nav button {
   cursor: pointer;
 }
 
-/*header nav button:last-of-type {
-  display: none; --> Esta parte no deja mostrar el boton en el nav
-}*/
+header nav button:last-of-type {
+  display: none; 
+}
 
 header nav button:hover {
   background-color: var(--color-negro);
