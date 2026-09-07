@@ -4,54 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/hero.css">
+    <link rel="stylesheet" href="assets/boletin.css">
+    <link rel="stylesheet" href="assets/footer.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="contenedor">
-            <h1>COMERCIO</h1>
-            <nav>
+            <h1 class="contenedor__title">COMERCIO</h1>
+            <nav class="contenedor__nav">
                 
-                <a href="">Menu 1</a>
-                <a href="">Menu 2</a>
-                <a href="">Menu 3</a>
-                <a href="">Menu 4</a>
-                <button>Inscribirse</button><!--aa-->
-                <button>Inscribirse</button><!--aa-->
+                <a class="contenedor__link" href="">Menu 1</a>
+                <a class="contenedor__link" href="">Menu 2</a>
+                <a class="contenedor__link" href="">Menu 3</a>
+                <a class="contenedor__link" href="">Menu 4</a>
+                <button class="contenedor__button">Inscribirse</button><!--aa-->
+                <button class="contenedor__button">Inscribirse</button><!--aa-->
             </nav>
         </div>
     </header>
-    <main >
+    <main class="main">
         <section class="hero">
-            <h1>¿Listo para empezar?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus eligendi autem, ipsum minima rerum perferendis illum voluptates aspernatur fugit molestiae exercitationem possimus delectus sapiente deserunt vel animi deleniti nam.</p>
-            <button>Iniciar Prueba gratuita</button>
+            <h1 class="hero__title">¿Listo para empezar?</h1>
+            <p class="hero__introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus eligendi autem, ipsum minima rerum perferendis illum voluptates aspernatur fugit molestiae exercitationem possimus delectus sapiente deserunt vel animi deleniti nam.</p>
+            <button class="hero__button">Iniciar Prueba gratuita</button>
         </section>
         <section class="boletin">
-            <h2>Unase a nuestro boletin</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, blanditiis tenetur accusantium labore numquam illo iure sunt omnis, temporibus assumenda cupiditate voluptas. Corrupti suscipit ea deserunt, totam ex quo illo?</p>
-            <form action="">
-                <label for="Nombre">Nombre:</label>
-                <input type="text" name="Nombre" id="Nombre">
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email">
-                <button type="submit">Suscribirse</button>
+            <h2 class="boletin__title">Unase a nuestro boletin</h2>
+            <p class="boletin__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, blanditiis tenetur accusantium labore numquam illo iure sunt omnis, temporibus assumenda cupiditate voluptas. Corrupti suscipit ea deserunt, totam ex quo illo?</p>
+            <form class="form" action="">
+                <label class="form__label" for="Nombre">Nombre:</label>
+                <input class="form__input" type="text" name="Nombre" id="Nombre">
+                <label class="form__label" for="Email">Email</label>
+                <input class="form__input" type="email" name="Email" id="Email">
+                <button class="form__button" type="submit">Suscribirse</button>
             </form>
         </section>
     </main>
-    <footer>
-        <div class="footer-columnas">
-            <div class="footer-columna">
-                <h2>COMERCIO</h2>
-                <p>@2025 - 2026</p>
-                <p>Terminos - Condiciones</p>
+    <footer class="footer">
+        <div class="columnas">
+            <div class="columna">
+                <h2 class="columna__title">COMERCIO</h2>
+                <p class="columna__year">@2025 - 2026</p>
+                <p class="columna__conditions">Terminos - Condiciones</p>
             </div>
-            <div class="footer-columna">
-                <h3>Enlaces</h3>
-                <p>Productos</p>
-                <p>Caracteristicas</p>
-                <p>Recursos</p>
-                <p>Compañia</p>
+            <div class="columna">
+                <h3 class="columna__Links">Enlaces</h3>
+                <a class="columna__products">Productos</p>
+                <a class="columna__characteristics">Caracteristicas</p>
+                <a class="columna__resources">Recursos</p>
+                <a class="columna__company">Compañia</p>
             </div>
         </div>
     </footer>
